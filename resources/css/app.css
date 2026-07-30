@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Modern Elegant Scrollbar */
+@layer utilities {
+
+    /* For Webkit browsers (Chrome, Safari, Edge) */
+    .scrollbar-modern::-webkit-scrollbar {
+        width: 6px;
+        height: 6px;
+    }
+
+    .scrollbar-modern::-webkit-scrollbar-track {
+        background: transparent;
+    }
+
+    .scrollbar-modern::-webkit-scrollbar-thumb {
+        background: transparent;
+        border-radius: 10px;
+        transition: background 0.3s ease;
+    }
+
+    .scrollbar-modern:hover::-webkit-scrollbar-thumb {
+        background: #cbd5e1;
+    }
+
+    .scrollbar-modern::-webkit-scrollbar-thumb:hover {
+        background: #818cf8;
+    }
+
+    /* For Firefox */
+    .scrollbar-modern {
+        scrollbar-width: thin;
+        scrollbar-color: transparent transparent;
+    }
+
+    .scrollbar-modern:hover {
+        scrollbar-color: #cbd5e1 transparent;
+    }
+
+    /* Hide scrollbar but allow scrolling */
+    .scrollbar-hide::-webkit-scrollbar {
+        display: none !important;
+    }
+
+    .scrollbar-hide {
+        -ms-overflow-style: none !important;
+        scrollbar-width: none !important;
+    }
+}

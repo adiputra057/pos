@@ -1,0 +1,17 @@
+{
+    "name": "MiniMartPOS - Sistem Kasir",
+    "short_name": "MiniMartPOS",
+    "description": "Premium Point of Sale System for Small Businesses",
+    "start_url": "/pos",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#1e66f5",
+    "icons": [
+        {
+            "src": "/icon.svg",
+            "sizes": "512x512",
+            "type": "image/svg+xml",
+            "purpose": "any maskable"
+        }
+    ]
+}
