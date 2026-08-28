@@ -2,6 +2,8 @@
 
 Sistem **Point of Sale (POS)** berbasis web yang dirancang untuk membantu bisnis **F&B dan Retail** dalam mengelola transaksi penjualan, produk, stok, pelanggan, serta laporan bisnis secara lebih mudah dan efisien.
 
+![POS Dashboard](./image-1787915491067.png)
+
 ## 🚀 Fitur Utama
 
 * 🛒 **Point of Sale (POS)** — Proses transaksi penjualan dengan cepat.
